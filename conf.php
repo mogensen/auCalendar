@@ -51,7 +51,7 @@ $confArray['dreyer'] = array(
 	"Dreyer 124 (Panorama)" => "DI-Dreyer-124 (Panorama)",
 	"Dreyer 125 (Holobench)" => "DI-Dreyer-125 (Holobench)",
 	"Dreyer 127 (Performance lab)" => "DI-Dreyer-127 (Performance lab)",
-	"Dreyer 128 (Det blÃ¥ studie)" => "DI-Dreyer-128 (Det blÃ¥ studie)",
+	"Dreyer 128 (Det blå studie)" => "DI-Dreyer-128 (Det blå studie)",
 	"Dreyer 201 (CAVI Meet)" => "DI-Dreyer-201 (CAVI Meet)",
 	);
 
