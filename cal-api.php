@@ -3,6 +3,10 @@
 include('simplehtmldom/simple_html_dom.php');
 include('conf.php');
 
+foreach($GLOBALS['confArray'] as $key => $val) {
+$validBuildings[] = $key;
+}
+
 function curl_download($Url){
 
     // is cURL installed yet?
