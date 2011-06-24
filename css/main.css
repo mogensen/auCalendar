@@ -1,0 +1,20 @@
+.free {
+color:rgb(0,200,0);
+}
+
+.zebra0 {
+    background-color:#DDD;
+}
+.zebra1 {
+    background-color:#FFF;
+}
+
+tr {
+padding: 0;
+margin: 0;
+}
+
+table {
+    border-spacing: 0;
+}
+

@@ -1,0 +1,57 @@
+    page {
+      height: 100%;
+      width: 100%;
+      opacity: 1;
+      padding: 0;
+  	  -webkit-transition-property: opacity, left;
+	    -webkit-transition-duration: 1s, 1.5s;
+	    transition-timing-function: ease-in;
+    }
+
+    .sheet {
+      background: -webkit-gradient( linear, left top, left bottom, from(#717171), to(#252525), color-stop(.1, #4d4d4d), color-stop(0.25, #000) );
+      border-top: 3px solid #ebebeb;
+      margin: 0;
+      opacity: .95;
+      padding: 1em 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    /*
+    ** Shiny buttons
+    */
+
+    input[type=button] {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 1.3em;
+      font-weight: bold;
+      width: 97%;
+      height: 50px;
+      border: 3px solid #282726;
+      background: -webkit-gradient( linear, left top, left bottom, from(#e2e2e2), to(#8c8a88), color-stop(0.5, #acadae), color-stop(0.5, #82807e) );
+      margin: 0 0 3px 0;
+      text-shadow: 0px 1px 0 #cecece;
+      -webkit-background-origin: padding-box;
+      -webkit-background-clip: border-box;
+      -webkit-border-radius: 8px;
+    }
+
+    input[type=button]:hover, input[type=button].cancel,
+    input[type=button]:active, input[type=button].cancel:active {
+      color: #fff;
+      text-shadow: none;
+    }
+
+    input[type=button]:hover, input[type=button].cancel:hover {
+      background: -webkit-gradient( linear, left top, left bottom, from(#aaaee5), to(#10006d), color-stop(0.5, #1F3B97), color-stop(0.5, #081f6f) );
+    }
+
+    input[type=button].cancel {
+      background: -webkit-gradient( linear, left top, left bottom, from(#5c5c5b), to(#1e1b16), color-stop(0.2, #1e1b16) );
+      margin-top: 6px;
+    }
+
