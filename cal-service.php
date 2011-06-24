@@ -7,7 +7,7 @@ $date = date("Y/m/d", mktime(0, 0, 0, date("m"), date("d")+intval($_GET['date'])
 $building = $_GET['building'];
 
 $usage = 'The followering GET parameters are implemented:
-building = "ithus | zuse | sitbitz"
+building = "' . implode(" | ", $GLOBALS['validBuildings']) . '"
 format = "json | xml"';
 
 if ($building == "") {
