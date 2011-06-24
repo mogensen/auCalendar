@@ -63,7 +63,7 @@ function drawTableWithBuilding($building, $date) {
     echo("</table>");
 }
 
-if(! isset($_GET['building'])) {
+if(! isset($_GET['building']) || ! in_array($_GET['building'], $GLOBALS['validBuildings'] )) {
     foreach($GLOBALS['validBuildings'] as $key => $val) {
     echo('<input type="button" name="button1" value="'.$val.'" ONCLICK="window.location.href=\'?building='.$val.'\'">');
     echo('<input type="button" name="button1" value="'.$val.' i morgen" ONCLICK="window.location.href=\'?building='.$val.'&date=1\'">');
