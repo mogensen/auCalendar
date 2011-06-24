@@ -18,7 +18,7 @@ $confArray['stibitz'] = array(
 	"Stibitz 117 (Lærestedet-gennemgang)" => "DI-Stibitz-117 (Lærestedet-gennemgang)");
 
 $confArray['zuse'] = array( 
-	"Zuse 127 (Ã¸velser)" => "DI-Zuse-127 (Ã¸velser)",
+	"Zuse 127 (øvelser)" => "DI-Zuse-127 (øvelser)",
 	"Zuse 128c Legolab" => "DI-Zuse-128c Legolab");
 
 $confArray['ada'] = array( 
@@ -57,13 +57,13 @@ $confArray['dreyer'] = array(
 
 $confArray['hopper'] = array( 
 	"Hopper 137 (IRUM)" => "DI-Hopper-137 (IRUM)",
-	"Hopper 243 (Alexandra mÃ¸delokale)" => "DI-Hopper-243 (Alexandra mÃ¸delokale)",
+	"Hopper 243 (Alexandra mødelokale)" => "DI-Hopper-243 (Alexandra mødelokale)",
 	"Hopper 334" => "DI-Hopper-334",
 	"Hopper 334A (Alexandra Mini Meet)" => "DI-Hopper-334A (Alexandra Mini Meet)",
 	);
 
 $confArray['nygaard'] = array( 
-	"Nygaard-016 Peter BÃ¸gh Andersen Auditoriet (IMV)" => "DI-Nygaard-016 Peter BÃ¸gh Andersen Auditoriet (IMV)",
+	"Nygaard-016 Peter Bøgh Andersen Auditoriet (IMV)" => "DI-Nygaard-016 Peter Bøgh Andersen Auditoriet (IMV)",
 	"Nygaard-091 (IMV)" => "DI-Nygaard-091 (IMV)",
 	"Nygaard-184" => "DI-Nygaard-184",
 	"Nygaard-192" => "DI-Nygaard-192",
@@ -80,7 +80,7 @@ $confArray['turing'] = array(
 	);
 
 $confArray['wiener'] = array( 
-	"DI-Wiener-026 (IMV mÃ¸¸delokale)" => "DI-Wiener-026 (IMV ÃÃ¸delokale)",
+	"DI-Wiener-026 (IMV mø¸delokale)" => "DI-Wiener-026 (IMV Ãødelokale)",
 	);
 
 ?>
