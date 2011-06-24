@@ -15,7 +15,7 @@
 
 <?php
 
-include('cal-service.php');
+include('cal-api.php');
 
 function drawTableWithBuilding($building, $date) {
 
