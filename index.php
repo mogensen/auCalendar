@@ -64,12 +64,10 @@ function drawTableWithBuilding($building, $date) {
 }
 
 if(! isset($_GET['building'])) {
-    echo('<input type="button" name="button1" value="ITHuset" ONCLICK="window.location.href=\'?building=ithus\'">');
-    echo('<input type="button" name="button1" value="ITHuset i morgen" ONCLICK="window.location.href=\'?building=ithus&date=1\'">');
-    echo('<input type="button" name="button1" value="Stibitz" ONCLICK="window.location.href=\'?building=stibitz\'">');
-    echo('<input type="button" name="button1" value="Stibitz i morgen" ONCLICK="window.location.href=\'?building=stibitz&date=1\'">');
-    echo('<input type="button" name="button1" value="Zuse" ONCLICK="window.location.href=\'?building=zuse\'">');
-    echo('<input type="button" name="button1" value="Zuse i morgen" ONCLICK="window.location.href=\'?building=zuse&date=1\'">');
+    foreach($GLOBALS['validBuildings'] as $key => $val) {
+    echo('<input type="button" name="button1" value="'.$val.'" ONCLICK="window.location.href=\'?building='.$val.'\'">');
+    echo('<input type="button" name="button1" value="'.$val.' i morgen" ONCLICK="window.location.href=\'?building='.$val.'&date=1\'">');
+}
 
 } else {
     echo('<input type="button" name="button1" value="Tilbage" ONCLICK="history.go(-1)">');
