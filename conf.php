@@ -18,8 +18,9 @@ $confArray['stibitz'] = array(
 	"Stibitz 117 (Lærestedet-gennemgang)" => "DI-Stibitz-117 (Lærestedet-gennemgang)");
 
 $confArray['zuse'] = array( 
-	"Zuse 127 (øvelser)" => "DI-Zuse-127 (øvelser)",
-	"Zuse 128c Legolab" => "DI-Zuse-128c Legolab");
+	"Zuse 127 (øvelser)" => "DI-Zuse-127 (Øvelser)",
+	"Zuse 128c Legolab" => "DI-Zuse-128c Legolab"
+	);
 
 $confArray['ada'] = array( 
 	"Ada 018" => "DI-Ada-018",
@@ -80,7 +81,7 @@ $confArray['turing'] = array(
 	);
 
 $confArray['wiener'] = array( 
-	"DI-Wiener-026 (IMV mø¸delokale)" => "DI-Wiener-026 (IMV Ãødelokale)",
+	"DI-Wiener-026 (IMV mødelokale)" => "DI-Wiener-026 (IMV mødelokale)",
 	);
 
 ?>
