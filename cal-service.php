@@ -8,7 +8,8 @@ $building = $_GET['building'];
 
 $usage = 'The followering GET parameters are implemented:
 building = "' . implode(" | ", $GLOBALS['validBuildings']) . '"
-format = "json | xml"';
+format = "json | xml"
+date = an offset from the current date. 1 for tomorrow, -1 for yesterday ect.';
 
 if ($building == "") {
 
