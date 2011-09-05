@@ -80,8 +80,4 @@ $confArray['turing'] = array(
 	"Turing 230" => "DI-Turing-230",
 	);
 
-$confArray['wiener'] = array( 
-	"DI-Wiener-026 (IMV mødelokale)" => "DI-Wiener-026 (IMV mødelokale)",
-	);
-
 ?>
