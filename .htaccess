@@ -1,0 +1,11 @@
+AddType text/cache-manifest .manifest
+
+RewriteEngine On
+
+RewriteRule ^(.*)/css/(.*)$ /mogensen/cal/css/$2 [L]
+RewriteRule ^(.*)/img/(.*)$ /mogensen/cal/img/$2 [L]
+
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)$ /mogensen/cal/index.php?building=$1&date=$2 [P]
+
+RewriteRule ^([a-zA-Z0-9]+)(/?)$ /mogensen/cal/index.php?building=$1 [P]
+
